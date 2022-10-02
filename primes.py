@@ -2,12 +2,12 @@
 """ENTER YOUR SOLUTION HERE!"""
 
 def primes(number_of_primes):
-    list = []
-    counter = 2
-    baseCounter = 0
+    list = [2]
+    counter = 3
+    baseCounter = 1
     isPrime = False
     if number_of_primes == 1:
-        list.append(2)
+        return list
     else:
         while baseCounter != number_of_primes:
             isPrime = False
@@ -21,4 +21,4 @@ def primes(number_of_primes):
                 list.append(counter)
                 baseCounter += 1
             counter += 1
-    return list
+        return list
