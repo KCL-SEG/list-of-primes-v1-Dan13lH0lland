@@ -2,9 +2,9 @@
 """ENTER YOUR SOLUTION HERE!"""
 
 def primes(number_of_primes):
-    list = [2]
-    counter = 3
-    baseCounter = 1
+    list = []
+    counter = 2
+    baseCounter = 0
     isPrime = False
     if number_of_primes == 1:
         list.append(2)
