@@ -21,7 +21,4 @@ def primes(number_of_primes):
                 list.append(counter)
                 baseCounter += 1
             counter += 1
-    print(list)
-
-
-primes(10)
+    return list
